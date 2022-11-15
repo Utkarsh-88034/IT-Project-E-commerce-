@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+.navbar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1vw;
+  align-items: center;
+  position: sticky;
+}
+.logo {
+  height: 8vw;
+}
+.main-head {
+  font-size: 4vw;
+  color: rgb(73, 73, 73);
+  font-family: "Yellowtail";
+  width: auto;
+}
+.cart-icon {
+  font-size: 4vw !important;
+  color: rgb(73, 73, 73);
+}
+.MuiBadge-badge {
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  min-width: 15px !important;
+  min-height: 15px !important;
+}
+@media (max-width: 680px) {
+  .logo {
+    height: 54px;
+  }
+  .main-head {
+    font-size: 28px;
+  }
+  .cart-icon {
+    font-size: 27px !important  ;
+  }
+  .MuiBadge-badge {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+@media (max-width: 460px) {
+  .main-head {
+    font-size: 6vw;
+  }
+  .logo {
+    height: 10vw;
+  }
+  .cart-icon {
+    font-size: 6vw !important;
+  }
+}

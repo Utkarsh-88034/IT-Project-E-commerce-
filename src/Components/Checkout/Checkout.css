@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkout-header {
+  font-size: 50px;
+  color: rgb(78, 78, 78);
+  margin: 20px;
+  font-family: "PT Sans";
+}
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  width: 500px;
+  box-shadow: 2px 2px 5px 0px rgb(80, 80, 80);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.check-circle-1 {
+  font-size: 30px !important;
+  color: blue;
+  margin: 0 5px;
+}
+.check-circle-2 {
+  font-size: 38px !important;
+  color: blue;
+  margin: 0;
+}
+hr {
+  width: 300px;
+  height: 4px;
+  background-color: rgb(109, 109, 109);
+}
+.step-marker {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Sans";
+  color: rgb(75, 75, 75);
+}
+.form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+}
+.checkout-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checkout-btn > button {
+  margin: 20px 20px;
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+@media (max-width: 520px) {
+  .checkout-form {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .checkout-form {
+    width: 300px;
+  }
+  hr {
+    width: 200px;
+  }
+}
+@media (max-width: 320px) {
+  .checkout-form {
+    width: 260px;
+  }
+  hr {
+    width: 100px;
+  }
+}

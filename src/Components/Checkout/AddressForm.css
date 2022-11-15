@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.address-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-form > div > input {
+  height: 35px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.address-form > div > label {
+  font-size: 18px;
+  font-family: "PT Sans";
+}
+.address-form > div {
+  width: 350px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.address-form > div > input:focus {
+  border-bottom-width: 2px;
+}
+.address-form > div.checkout-btn {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 420px) {
+  .address-form > div {
+    width: 260px;
+  }
+}
+@media (max-width: 320px) {
+  .address-form > div {
+    width: 200px;
+  }
+}

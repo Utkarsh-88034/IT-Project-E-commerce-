@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form > div > input {
+  height: 35px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.payment-form > div > label {
+  font-size: 18px;
+  font-family: "PT Sans";
+}
+.payment-form > div {
+  width: 350px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.payment-form > div > input:focus {
+  border-bottom-width: 2px;
+}
+.card-details-form {
+  width: 400px;
+  margin: auto;
+}
+.pay-btn {
+  color: white;
+  background-color: blue;
+}
+@media (max-width: 520px) {
+  .card-details-form {
+    width: 350px;
+  }
+}
+@media (max-width: 420px) {
+  .card-details-form {
+    width: 250px;
+  }
+}
+@media (max-width: 320px) {
+  .card-details-form {
+    width: 210px;
+  }
+}
